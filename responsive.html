@@ -47,14 +47,19 @@ Description : Responsive Layouts.
 		@media screen and (min-width: 769px) {			
 			.large { 
 				width: 100%;
-				border: 0px;
+				
 			}
 			.medium { 
-				width: 70%
+				width: 70%;
+				float: right;
+				box-sizing: border-box;
 			}
 			.small { 
-				width: 30%
-			 }
+				width: 30%;
+				float: left;
+				box-sizing: border-box;
+			}
+
 		}
 
         @media screen and (max-width: 768px) {
@@ -63,14 +68,14 @@ Description : Responsive Layouts.
 				
 			}
 			.medium { 
-				width: 70%;
+				width: 60%;
 				float: right;
 				box-sizing: border-box;
 				
 			
 			}
 			.small { 
-				width: 30%;
+				width: 40%;
 				float: left;
 				box-sizing: border-box;
 		
@@ -83,9 +88,6 @@ Description : Responsive Layouts.
 				float: none;
 				width: 100%;
 			
-			 }
-			 .row{
-				width: auto;
 			 }
 
 			 .menu ul li{
